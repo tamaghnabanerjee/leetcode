@@ -17,6 +17,11 @@ def is_anagram(s,t):
         map_t[t[i]]=1+map_t.get(t[i],0)
     for k,v in map_s.items():
         if map_t[k]!=map_s.get(k,0):
-            return True
-    return False
+            return False
+    return True
+
+if __name__=='__main__':
+    s='tear'
+    t='eat'
+    print(is_anagram(s,t))
 
