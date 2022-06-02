@@ -23,7 +23,6 @@ def container_most_water(height):
             l+=1
         else:
             r-=1
-        
     return max_area
 
 if __name__=='__main__':
