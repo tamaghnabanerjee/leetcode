@@ -25,7 +25,8 @@ def search_recursive(nums,target):
 def search_iterative(nums,target):
     def binary_search(l,r):
         while l<=r:
-            m=(l+r)//2
+            # m=(l+r)//2
+            m=l+((r-l)/2)
             if target==nums[m]:
                 return m
             if target<nums[m]:
