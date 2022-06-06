@@ -23,7 +23,7 @@ if __name__=='__main__':
     
 # Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 
-# Naive solution: O(n^2)
+# Naive solution: O(n2)
 '''
 def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
     anagram_map={}
