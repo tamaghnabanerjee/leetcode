@@ -1,3 +1,3 @@
 # leetcode
-Solutions to important Leetcode problems:
+Solutions to important Leetcode problems--
 https://leetcode.com/
