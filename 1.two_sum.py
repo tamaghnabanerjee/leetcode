@@ -13,7 +13,6 @@ Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 '''
 
-
 def sum_nums(nums,target):
     hash_map={}
     for i in range(len(nums)):
